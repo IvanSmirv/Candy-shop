@@ -1,0 +1,341 @@
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="short icon" href="img/favicon/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Candy-shop</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__div">
+        <nav class="header__menu">
+          <div class="header__tougle icon">
+            <div class="header__hamburger"></div>
+          </div>
+          <ul class="header__ul">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="html/catalog/catalog.html">Каталог</a></li>
+            <li><a href="html/contacts/contacts.html">Контакты</a></li>
+            <li><a href="html/pay,delivery/pay,delivery.html">Оплата, доставка</a></li>
+          </ul>
+        </nav>
+        <div class="header__greeting">
+          <p class="header__user-hello" id="header__user-hello"></p>
+          <div class="header__img" data-fancybox href="#hidden">
+            <img src="img/1.header/User-icon.svg" alt="" />
+          </div>
+        </div>
+        <div class="" id="hidden">
+          <form action="#">
+            <p>Регистрация</p>
+            <input type="text" placeholder="Ф.И.О" required />
+            <input type="email" placeholder="Почта" required />
+            <input type="tel" placeholder="Номер телефона" required />
+            <input type="password" placeholder="Пароль" required />
+            <input type="password" placeholder="Повторите пароль" required />
+            <input class="header-btn" type="submit"></input>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="products">
+    <div class="container">
+      <div class="products__search">
+        <div class="container">
+          <div class="search__content">
+            <a class="search__logo" href="#"></a>
+            <div class="search__form">
+              <form action="#">
+                <input type="text" placeholder="Введите название товара" required>
+                <button type="submit" class="search__btn">
+                  <img src="img/2.section-products/products-search/Search-btn.svg" alt="Поиск">
+                </button>
+              </form>
+            </div>
+            <a href="html/catalog/catalog.html" class="search__catalog">В каталог</a>
+            <div class="search__number">
+              <p>*номер телефона</p>
+              <p>Расписание: 8:00 - 17:00</p>
+            </div>
+            <a href="#" class="search__basket">
+              <img src="img/2.section-products/products-search/Basket.svg" alt="Корзина">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="products__new-product">
+        <div class="container">
+          <div class="new-product__content">
+            <h1 class="new-product__title">Новинки</h1>
+            <div class="new-product__grid">
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="html/product-card/product-card.html"><img src="img/2.section-products/new-product/cake.png"
+                      alt=""></a>
+                </div>
+                <a href="html/product-card/product-card.html">Торт 1</a>
+                <p></p>
+                <p>1.1 кг</p>
+                <p>700 руб</p>
+                <a href="#">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#"><img src="img/2.section-products/new-product/cake.png" alt=""></a>
+                </div>
+                <a href="#">Торт 2</a>
+                <p></p>
+                <p>1.2 кг</p>
+                <p>1400 руб</p>
+                <a href="#">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#">
+                    <img src="img/2.section-products/new-product/cake.png" alt=""></a>
+                </div>
+                <a href="#">Торт 3</a>
+                <p></p>
+                <p>2.5 кг</p>
+                <p>700 руб</p>
+                <a href=" #">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#"><img src="img/2.section-products/new-product/cake.png" alt=""></a>
+                </div>
+                <a href="#">Торт 4</a>
+                <p></p>
+                <p>1.9 кг</p>
+                <p>1700 руб</p>
+                <a href="#">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#"><img src="img/2.section-products/new-product/cake.png" alt=""></a>
+                </div>
+                <a href="#">Торт 5</a>
+                <p></p>
+                <p>1.7 кг</p>
+                <p>2000 руб</p>
+                <a href="#">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#"><img src="img/2.section-products/new-product/cake.png" alt="">
+                  </a>
+                </div>
+                <a href="#">Пирожное 1</a>
+                <p></p>
+                <p>0.15 кг</p>
+                <p>200 руб. / 10 шт. </p>
+                <a href="#">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#"><img src="img/2.section-products/new-product/cake.png" alt=""></a>
+                </div>
+                <a href="#">Пирожное 2</a>
+                <p></p>
+                <p>0.1 кг</p>
+                <p>200 руб. / 10 шт</p>
+                <a href="#">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#"><img src="img/2.section-products/new-product/cake.png" alt=""></a>
+                </div>
+                <a href="#">Мороженое 3</a>
+                <p></p>
+                <p>20 порцией</p>
+                <p>2000 руб</p>
+                <a href=" #">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href="#">
+                    <img src="img/2.section-products/new-product/cake.png" alt="">
+                  </a>
+                </div>
+                <a href="#">Пирожное 4</a>
+                <p></p>
+                <p>0.2 кг</p>
+                <p>500 руб. / 10 шт</p>
+                <a href="#">В корзину</a>
+              </div>
+              <div class="new-product__product">
+                <div class="new-product__img">
+                  <a href=""><img src="img/2.section-products/new-product/cake.png" alt=""></a>
+                </div>
+                <a href="#">Пирожное 5</a>
+                <p></p>
+                <p>0.2 кг</p>
+                <p>600 руб. / 10 шт</p>
+                <a href="#">В корзину</a>
+              </div>
+            </div>
+            <div class="new-product__a">
+              <a href="html/catalog/catalog.html">В каталог</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="assortment">
+    <div class="container">
+      <p class="assortment__title">Наш ассортимент</p>
+      <div class="assortment__grid">
+        <a href="html/catalog/catalog.html" class="assortment__good assortment__good_1">
+          <div class="assortment__img">
+            <img src="img/2.section-products/new-product/cake.png" alt="">
+          </div>
+          <p>Торты</p>
+        </a>
+        <a href=" html/catalog/catalog.html" class="assortment__good assortment__good_2">
+          <div class="assortment__img">
+            <img src="img/2.section-products/new-product/cake.png" alt="">
+          </div>
+          <p>Тирамису</p>
+        </a>
+        <a href="html/catalog/catalog.html" class="assortment__good assortment__good_3">
+          <div class="assortment__img">
+            <img src="img/2.section-products/new-product/cake.png" alt="">
+          </div>
+          <p>Пончики</p>
+        </a>
+        <a href="html/catalog/catalog.html" class="assortment__good assortment__good_4">
+          <div class="assortment__img">
+            <img src="img/2.section-products/new-product/cake.png" alt="">
+          </div>
+          <p>Мороженое</p>
+        </a>
+        <a href="html/catalog/catalog.html" class="assortment__good assortment__good_5">
+          <div class="assortment__img">
+            <img src="img/2.section-products/new-product/cake.png" alt="">
+          </div>
+          <p>Кексы</p>
+        </a>
+        <div class="assortment__a assortment__a_grid">
+          <a href="html/catalog/catalog.html">Больше товаров</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-us">
+    <div class="container">
+      <div class="about-us__content">
+        <p class="about-us__title">О нас</p>
+        <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et
+          velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+          per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut
+          diam quam, semper iaculis condimentum ac, vestibulum eu nisl.</p>
+        <div class="about-us__block">
+          <div>
+            <img src="img/4.about-us/truck.svg" alt="">
+            <p>Доставим по адресу</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+              aliquet odio mattis.</p>
+          </div>
+          <div>
+            <img src="img/4.about-us/cake.svg" alt="">
+            <p>Доставим по адресу</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+              aliquet odio mattis.</p>
+          </div>
+          <div>
+            <img src="img/4.about-us/support.svg" alt="">
+            <p>Доставим по адресу</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+              aliquet odio mattis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="answers">
+    <div class="container">
+      <div class="answers__content">
+        <div class="answers_answers">
+          <p class="answers__title">Ответы на часто задаваемые вопросы</p>
+          <ul class="answers__accordion">
+            <li>
+              <button class="accordion-control">Вопрос 1</button>
+              <div class="accordion-panel">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum cupiditate, nemo obcaecati
+                  aperiam eos quam, fuga voluptates dolores ducimus quo esse! Veniam quae suscipit, delectus maxime
+                  ipsum vel consequuntur.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button class="accordion-control">Вопрос 2</button>
+              <div class="accordion-panel">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum cupiditate, nemo obcaecati
+                  aperiam eos quam, fuga voluptates dolores ducimus quo esse! Veniam quae suscipit, delectus maxime
+                  ipsum vel consequuntur.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button class="accordion-control">Вопрос 3</button>
+              <div class="accordion-panel">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum cupiditate, nemo obcaecati
+                  aperiam eos quam, fuga voluptates dolores ducimus quo esse! Veniam quae suscipit, delectus maxime
+                  ipsum vel consequuntur.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button class="accordion-control">Вопрос 4</button>
+              <div class="accordion-panel">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum cupiditate, nemo obcaecati
+                  aperiam eos quam, fuga voluptates dolores ducimus quo esse! Veniam quae suscipit, delectus maxime
+                  ipsum vel consequuntur.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button class="accordion-control">Вопрос 5</button>
+              <div class="accordion-panel">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsum cupiditate, nemo obcaecati
+                  aperiam eos quam, fuga voluptates dolores ducimus quo esse! Veniam quae suscipit, delectus maxime
+                  ipsum vel consequuntur.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__div">
+          <p>© Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+  <script src="js/burger-menu.js"></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/accordion.js"></script>
+</body>
+
+</html>
